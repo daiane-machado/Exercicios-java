@@ -1,4 +1,4 @@
-package com.example.exercicios_java.semmana1;
+package com.example.exercicios_java.semana1.negocio;
 
 public class Ex1 {
     
