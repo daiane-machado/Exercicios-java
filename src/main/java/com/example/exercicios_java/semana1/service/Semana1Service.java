@@ -11,7 +11,7 @@ public class Semana1Service{
 
     @Autowired
     public Semana1Service(Ex1Negocio ex1Negocio){
-        this.ex1Negocio;
+        this.ex1Negocio = ex1Negocio;
     }
     public String ex1Hello(){
         return ex1Negocio.imprimeHello();
