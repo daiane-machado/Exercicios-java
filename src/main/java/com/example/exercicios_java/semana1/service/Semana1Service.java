@@ -10,9 +10,9 @@ import com.example.exercicios_java.semana1.negocio.Ex1Negocio;
 public class Semana1Service{
 
    @Autowired
-    private Ex1Negocio ex1Negocio;
+    private Ex1Hello ex1Hello;
 
     public String ex1Hello(){
-        return ex1Negocio.imprimeHello();
+        return ex1Hello.imprimeHello();
     }
 }
