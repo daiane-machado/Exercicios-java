@@ -1,6 +1,8 @@
 package com.example.exercicios_java.semana1.controller;
 
 import org.springframework.stereotype.Service;
+import org.springframework.beans.factory.annotation.Autowired;
+
 
 @Service
 public class Semana1Service{
