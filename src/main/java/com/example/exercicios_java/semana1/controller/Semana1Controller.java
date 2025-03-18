@@ -10,7 +10,7 @@ public class Semana1Controller {
 
     private final Semana1Service semana1Service;
 
-    public Semana1Controllerr(Semana1Seervice semana1Service){
+    public Semana1Controller(Semana1Seervice semana1Service){
         this.semana1Service = semana1Service;
     }
     
