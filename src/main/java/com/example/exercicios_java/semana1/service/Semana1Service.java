@@ -7,9 +7,11 @@ import org.springframework.stereotype.Service;
 @Service
 public class Semana1Service{
 
-    @Autowired
-    private Ex1Negocio ex1Negocio;
-
+   
+    private final Ex1Negocio ex1Negocio;
+public Semana1Service(Ex1Negocio ex1Negocio){
+    this.ex1Negocio = ex1Negocio;
+}
     public String ex1Hello(){
         return ex1Negocio.imprimeHello();
     }

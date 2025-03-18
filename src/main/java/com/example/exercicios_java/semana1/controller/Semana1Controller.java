@@ -9,8 +9,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 @RequestMapping(value = "/semana1")
 public class Semana1Controller {
 
-    @Autowired
-    private Semana1Service semana1Service;
+    private final Semana1Service semana1Service;
+
+    public Semana1Controller(Semana1Service semana1Service){
+        this.semana1Service = semana1Service;
+    }
     
     @GetMapping("/ex1")
     public String ex1()  {
