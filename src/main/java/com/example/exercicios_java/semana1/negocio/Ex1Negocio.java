@@ -6,6 +6,7 @@ import org.springframework.stereotype.Component;
 public class Ex1Negocio {
     
    public String imprimeHello(){
+      System.out.println("Teste");
     return "Hello wolrd!";
    }
     
