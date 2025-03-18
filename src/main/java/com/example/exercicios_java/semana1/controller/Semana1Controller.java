@@ -16,7 +16,7 @@ public class Semana1Controller {
     
     @GetMapping("/ex1")
     public String ex1()  {
-        return semana1Service.ex1();
+        return semana1Service.ex1Hello();
     }
     
 }

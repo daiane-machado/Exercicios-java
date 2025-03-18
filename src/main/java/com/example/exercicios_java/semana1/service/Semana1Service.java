@@ -10,7 +10,7 @@ public class Semana1Service{
     @Autowired
     private Ex1 ex1;
 
-    public String ex1(){
+    public String ex1Hello(){
         return ex1.imprimeHello();
     }
 }
