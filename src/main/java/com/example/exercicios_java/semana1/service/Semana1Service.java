@@ -1,4 +1,4 @@
-package com.example.exercicios_java.semana1.controller;
+package com.example.exercicios_java.semana1.service;
 
 import org.springframework.stereotype.Service;
 import org.springframework.beans.factory.annotation.Autowired;
