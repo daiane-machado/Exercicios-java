@@ -10,7 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 public class Semana1Controller {
 
     @Autowired
-    private final Semana1Service semana1Service;
+    private Semana1Service semana1Service;
     
     @GetMapping("/ex1")
     public String ex1()  {
