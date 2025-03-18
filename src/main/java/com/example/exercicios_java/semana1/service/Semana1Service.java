@@ -11,6 +11,6 @@ public class Semana1Service{
     private Ex1 ex1;
 
     public String ex1(){
-        return Ex1.imprimeHello();
+        return ex1.imprimeHello();
     }
 }
