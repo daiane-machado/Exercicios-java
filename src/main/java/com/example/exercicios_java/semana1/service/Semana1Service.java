@@ -5,6 +5,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class Semana1Service{
 
+    @Autowired
     private Ex1 ex1;
 
     public String ex1(){
