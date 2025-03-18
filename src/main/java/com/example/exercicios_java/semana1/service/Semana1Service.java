@@ -2,6 +2,8 @@ package com.example.exercicios_java.semana1.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import com.example.exercicios_java.semana1.negocio.Ex1Negocio;
+
 
 
 @Service
