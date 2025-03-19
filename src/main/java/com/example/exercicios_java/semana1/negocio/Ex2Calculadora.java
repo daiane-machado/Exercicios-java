@@ -5,19 +5,19 @@ import org.springframework.stereotype.Component;
 @Component
 public class Ex2Calculadora{
 
-    public String calcula(double num1, double num2, String operador){
+    public <T> T calcula(T num1, T num2, String operador){
         Switch(operador){
             case "+":   
-                soma(double num1, double num2);
+                soma(T num1, T num2);
             break;
             case "-":
-                subtrai(double num1, double num2);
+                subtrai(T num1, double num2);
                 break;
             case "x":
-                multiplica(double num1, double num2);
+                multiplica(T num1, T num2);
                 break;
             case "/":
-                divide(double num1, double num2);
+                divide(T num1, T num2);
                 break;
             default:
                 return "Entrada inválida";
@@ -27,6 +27,6 @@ public class Ex2Calculadora{
 
 }
 
-public String soma(double num1, double num2){
-    return (num1 + num2).toString();
+public <T> T soma(T num1, T num2){
+    return (num1 + num2);
 }

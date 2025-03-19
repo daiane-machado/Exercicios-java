@@ -20,7 +20,7 @@ public class Semana1Service{
         return ex1Hello.imprimeHello();
     }
 
-    public <T> ex2Calculadora(double num1, double num2, String operador){
-        return ex2Calculadora.calcula(double num1, double num2, String operador);
+    public <T> T ex2Calculadora(T num1, T num2, String operador){
+        return ex2Calculadora.calcula(T num1, T num2, String operador);
     }
 }

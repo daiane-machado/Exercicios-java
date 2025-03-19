@@ -19,8 +19,8 @@ public class Semana1Controller {
     }
 
     @GetMapping("/ex2")
-    public <T> ex2(@RequestParan double num1, @RequestParan double num2,@RequestParan String operador){
-        return semana1Service.ex2Calculadora(double num1, double num2, String operador);
+    public String ex2(@RequestParan double num1, @RequestParan double num2,@RequestParan String operador){
+        return semana1Service.ex2Calculadora(double num1, double num2, String operador).toString();
     }
     
 }
