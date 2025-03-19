@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class Ex2Calculadora{
 
-    public <T> calcula(double num1, double num2, String operador){
+    public String calcula(double num1, double num2, String operador){
         Switch(operador){
             case "+":   
                 soma(double num1, double num2);
@@ -27,6 +27,6 @@ public class Ex2Calculadora{
 
 }
 
-public double soma(double num1, double num2){
-    return num1 + num2;
+public String soma(double num1, double num2){
+    return (num1 + num2).toString();
 }
