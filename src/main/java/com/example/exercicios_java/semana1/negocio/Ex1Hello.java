@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 public class Ex1Hello {
     
    public String imprimeHello(){
-    return "Hello wolrd!";
+    return "Hello world!";
    }
     
 }
