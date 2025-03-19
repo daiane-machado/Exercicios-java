@@ -9,20 +9,19 @@ public class Ex2Calculadora{
         Switch(operador){
             case "+":   
                 soma(double num1, double num2);
-            breack;
+            break;
             case "-":
                 subtrai(double num1, double num2);
-                breack;
+                break;
             case "x":
                 multiplica(double num1, double num2);
-                breack;
+                break;
             case "/":
                 divide(double num1, double num2);
-                breack;
+                break;
             default:
-                return "Entrada inválida" ;    
-                
-                
+                return "Entrada inválida";
+                break;                    
                  }
    }
 
